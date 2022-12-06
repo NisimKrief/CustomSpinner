@@ -37,6 +37,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         if(pos >= 1) {
             tV3.setText("Country: " + Medinot[pos] + "\nCapital: " + Capital[pos] + "\nPopulation:  " + Population[pos]);
         }
+        else{
+            tV3.setText("Country: \nCapital: \nPopulation:  ");
+        }
     }
 
     @Override
